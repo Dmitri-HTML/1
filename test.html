@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>test</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+<body>
+
+ert 1111111111
+
+<a href="/TEST/xmload.php" target="_blank">Open</a>
+
+<?php
+
+/* ��������� ���������� ��������� ����� ������� � UTF-8 */
+mb_internal_encoding("UTF-8");
+$internal_enc = mb_internal_encoding();
+
+echo $with_I = file_get_contents('with_I.html'); //
+echo $without_I = file_get_contents('without_I.html'); //
+
+echo  $with_I_utf8 = file_get_contents('with_I_utf8.html'); //
+echo  $without_I_utf8 = file_get_contents('without_I_utf8.html'); //
+
+
+
+?>
+
+</body>
+
+</html>
